@@ -56,3 +56,55 @@ This thesis implements automatic sentiment (product review) classification for *
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
+Or, just download the ZIP from GitHub and extract it.
+
+2. Create a Virtual Environment (optional but recommended)
+
+python -m venv venv
+
+On Windows:
+
+venv\Scripts\activate
+
+On Mac/Linux:
+
+source venv/bin/activate
+
+
+
+3. Install the Required Libraries
+
+pip install -r requirements.txt
+
+
+4. Run the Jupyter Notebook
+
+jupyter notebook
+
+Then open the notebooks in the browser (01_preprocessing.ipynb, 02_train_models.ipynb, etc.).
+
+
+
+
+---
+
+8. Tips & notes (from thesis)
+
+The dataset was constructed by translating English Amazon reviews into Bangla and manually labeling to maintain balance — take care with translation noise.
+
+Regularization (dropout, L1/L2 kernel/bias regularizers) and early stopping were used to reduce overfitting.
+
+Bi-LSTM performed best for this dataset — expected because bidirectionality captures context better in sequence classification.
+
+
+
+---
+
+9. Conclusion (one-liner)
+
+This work shows that deep-learning models (especially Bi-LSTM) can effectively classify Bangla-translated Amazon product reviews with high accuracy (≈92%), while underscoring the need for large, clean Bangla datasets for future improvements.
+
+
+---
+
+---
