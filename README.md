@@ -19,8 +19,6 @@ This repository contains files and resources for the thesis **Product Review Ana
 - `Dataset/` → Sample dataset (full dataset link below).  
 - `Graphical/` → Plots: accuracy, loss, confusion matrices, ROC.  
 - `Paper/` → Published paper PDF.  
-- `Plagiarism_Report/` → Plagiarism check PDF.  
-- `Research_Articles/` → Supporting research PDFs.  
 - `Thesis_Report/` → Full thesis PDF (137_Report.pdf).  
 - `Thesis_Presentation/` → Presentation slides.
 
