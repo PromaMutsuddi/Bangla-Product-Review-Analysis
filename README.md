@@ -1,6 +1,5 @@
 # Product Review Analysis using Deep Learning Approaches  
-📌 Bachelor Thesis – International Islamic University Chittagong (2020)  
-👩‍🎓 Authors: Proma Mutsuddi (C163215), Ayesha Julekha (C163237)
+📌 Bachelor Thesis – International Islamic University Chittagong (2020) 
 
 ---
 
